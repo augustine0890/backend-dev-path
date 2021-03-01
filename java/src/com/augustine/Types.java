@@ -1,11 +1,10 @@
 package com.augustine;
 
-import javax.imageio.ImageReader;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
 
-public class Main {
+public class Types {
 
     public static void main(String[] args) {
         // Your code here
@@ -50,6 +49,12 @@ public class Main {
         stephen.name = "Stephen";
         System.out.println("After changing stephen:");
         System.out.println(andy.name + " " + stephen.name);
+
+        // Naming variables
+        int zero = 0;
+        double pi = 3.14;
+        int subscriberCount = 1_234_239;
+        System.out.println(subscriberCount);
     }
 
     static class Person {

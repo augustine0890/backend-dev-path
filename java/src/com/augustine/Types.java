@@ -2,7 +2,6 @@ package com.augustine;
 
 import java.time.LocalDate;
 import java.util.Date;
-import java.util.Locale;
 
 public class Types {
 
@@ -32,6 +31,7 @@ public class Types {
 	    // Reference Data Types
         String name = new String("Augustine");
         System.out.println(name.toUpperCase());
+        Date date = new Date();
 	    LocalDate now = LocalDate.now();
 	    System.out.println(now.getYear());
 

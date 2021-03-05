@@ -21,3 +21,8 @@
     - `protected` class member is accessible within all classes in the same package.
 - __ClassName__: the name should begin with an initial letter
 - __Body__: where we define the properties and methods of the class.
+### Constructors
+- A constructor is called when you want to create an object of a class.
+- A constructor has the same name as the class.
+- A constructor can be `public` or `private`
+- A constructor doesn't return anything, even `void`

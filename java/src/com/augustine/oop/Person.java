@@ -6,6 +6,13 @@ public class Person {
     int height;
     String name;
 
+    // Constructor
+    public Person(int myAge) {
+        this.age = myAge;
+    }
+    public Person() {
+        this(28);
+    }
     // Methods
     public void walk(int speed) {
         if (speed > 10) {

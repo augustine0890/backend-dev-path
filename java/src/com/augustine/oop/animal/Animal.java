@@ -1,4 +1,4 @@
-package com.augustine.oop;
+package com.augustine.oop.animal;
 
 public class Animal {
     int legs, ears, eyes;

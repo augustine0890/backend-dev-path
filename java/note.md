@@ -21,8 +21,20 @@
     - `protected` class member is accessible within all classes in the same package.
 - __ClassName__: the name should begin with an initial letter
 - __Body__: where we define the properties and methods of the class.
+
 ### Constructors
 - A constructor is called when you want to create an object of a class.
 - A constructor has the same name as the class.
 - A constructor can be `public` or `private`
 - A constructor doesn't return anything, even `void`
+
+### Inheritance
+- The class being inherited from is called the superclass or the base class, and the class that is inheriting is called the subclass or the derived class.
+- Single level inheritance: a class inherits from only one other class.
+- Multi-level inheritance: a class can inherit from another class that also inherits from another class.
+- Multiple inheritance: a class can inherit from more than one class. This not directly supported in Java, but can be achieved by using __interfaces__.
+```java
+class SubClassName extends SuperClassName {
+    
+}
+```

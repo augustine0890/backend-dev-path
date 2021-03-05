@@ -1,10 +1,12 @@
-package com.augustine.oop;
+package com.augustine.oop.person;
+
+import com.augustine.oop.person.Person;
 
 public class PersonTest {
     public static void main(String[] args) {
         Person me = new Person();
-        Person myNeighbour = new Person(55);
-        Person lecturer = new Person(45);
+        Person myNeighbour = new Person();
+        Person lecturer = new Person();
 
         System.out.println(me.age);
         me.walk(20);

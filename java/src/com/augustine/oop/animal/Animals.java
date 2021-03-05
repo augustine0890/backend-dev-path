@@ -1,4 +1,6 @@
-package com.augustine.oop;
+package com.augustine.oop.animal;
+
+import com.augustine.oop.animal.Animal;
 
 public class Animals {
     public static void main(String[] args) {

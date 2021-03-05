@@ -12,7 +12,7 @@ public class Operator {
     public boolean matches(String toCheckFor) {
         return this.operator.equals(toCheckFor);
     }
-    public double operator(double operand1, double operand2) {
+    public double operate(double operand1, double operand2) {
         return operand1 + operand2;
     }
 }

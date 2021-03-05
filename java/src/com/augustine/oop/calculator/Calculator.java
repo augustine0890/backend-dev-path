@@ -1,4 +1,4 @@
-package com.augustine.oop;
+package com.augustine.oop.calculator;
 
 public class Calculator {
     private final double operand1;

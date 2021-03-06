@@ -38,3 +38,48 @@ class SubClassName extends SuperClassName {
     
 }
 ```
+
+### Overloading
+- A method signature is the method name, its parameters, and the order of the parameters.
+- With overloading, we are able to define more than one method with the same method names but different parameters.
+- We can overload the main method in a class, but once the program starts up, the JVM will only call `main(String[] args)`.
+```java
+public class Student {
+    public static void main(String[] args) {
+        // Will be called by the JVM
+    }
+    public static void main(String[] args, String str1, int num) {
+        // Do some operations
+    }
+    public static void main(int num, int num1, String str) {
+        
+    }
+}
+```
+### Polymorphism and Overriding
+- Sub-classes can define their unique behaviors yet still share some functionalities with their parent classes.
+- Method overriding means having two methods with the same arguments, but different implementations. One of them would exist in the parent class, while another would exist in the child class.
+#### Annotations
+- Annotations are a way in which we can add metadata to our programs. Such metadata is not part of the program itself, but can help us catch errors or offer guidance.
+- Annotations have no direct effect on the operation of the code they annotate.
+- `@Override`: used to indicate that the element is meant to override an element from the superclass.
+- `@Deprecated`: indicates that a certain method is deprecated and should no longer be used.
+
+```java
+import com.augustine.oop.person.Person;
+
+public @interface Author {
+  String name();
+
+  String date();
+}
+
+@Author(name = "James Bonds", date = "12/23/1968")
+public class Student extends Person {
+    
+}
+```
+#### References
+- When we assign objects to variables or pass them to methods as parameters, we aren't actually passing the object itself or its copy - we are passing references to the objects themselves in memory.
+
+
